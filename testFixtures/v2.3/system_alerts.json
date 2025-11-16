@@ -1,0 +1,28 @@
+{
+  "last_updated": 1751434987,
+  "ttl": 0,
+  "version": "2.3",
+  "data": {
+    "alerts": [
+      {
+        "alert_id": "21",
+        "type": "station_closure",
+        "station_ids": [
+          "123",
+          "456",
+          "789"
+        ],
+        "times": [
+          {
+            "start": 1751437263,
+            "end": 1751434987
+          }
+        ],
+        "url": "https://example.com/more-info",
+        "summary": "Closed for maintenance",
+        "description": "Station is closed to install more docks.",
+        "last_updated": 1751434987
+      }
+    ]
+  }
+}
