@@ -12,14 +12,14 @@ This repository provides JSON Schema definitions and Go language bindings for th
 To use the GBFS JSON Schema and Go bindings in your project, you can either clone this repository:
 
 ```bash
-git clone https://github.com/PhDKerger/gbfs-json-schema.git
-cd gbfs-json-schema
+git clone https://github.com/PhDKerger/gbfs-go-adapter.git
+cd gbfs-go-adapter
 ```
 
 or you can use our Go module directly by adding it to your `go.mod` file:
 
 ```bashgo
-require github.com/PhDKerger/gbfs-json-schema v0.1.0
+require github.com/PhDKerger/gbfs-go-adapter v0.5.0
 ```
 
 ## Usage
