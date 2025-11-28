@@ -1,7 +1,7 @@
 package header
 
 import (
-	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/common"
 )
 
 type HeaderStruct struct {

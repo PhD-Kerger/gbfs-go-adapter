@@ -19,7 +19,7 @@ import (
 )
 
 func TestGbfs30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/gbfs.json", TestFixturesV30+"gbfs.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/gbfs.json", TestFixturesV30+"gbfs.json")
 	var gbfsData gbfs.Gbfs
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -30,7 +30,7 @@ func TestGbfs30(t *testing.T) {
 }
 
 func TestGbfsVersions30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/gbfs_versions.json", TestFixturesV30+"gbfs_versions.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/gbfs_versions.json", TestFixturesV30+"gbfs_versions.json")
 	var gbfsData gbfsversions.GbfsVersions
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -41,7 +41,7 @@ func TestGbfsVersions30(t *testing.T) {
 }
 
 func TestGeofencingZones30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/geofencing_zones.json", TestFixturesV30+"geofencing_zones.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/geofencing_zones.json", TestFixturesV30+"geofencing_zones.json")
 	var gbfsData geofencingzones.GeofencingZones
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -52,7 +52,7 @@ func TestGeofencingZones30(t *testing.T) {
 }
 
 func TestManifest30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/manifest.json", TestFixturesV30+"manifest.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/manifest.json", TestFixturesV30+"manifest.json")
 	var gbfsData manifest.Manifest
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -63,7 +63,7 @@ func TestManifest30(t *testing.T) {
 }
 
 func TestStationInformationPhysicalLimitedHoursOfOperation30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/station_information.json", TestFixturesV30+"station_information_physical_station_limited_hours_of_operation.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/station_information.json", TestFixturesV30+"station_information_physical_station_limited_hours_of_operation.json")
 	var gbfsData stationinformation.StationInformation
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -74,7 +74,7 @@ func TestStationInformationPhysicalLimitedHoursOfOperation30(t *testing.T) {
 }
 
 func TestStationInformationVirtual30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/station_information.json", TestFixturesV30+"station_information_virtual_station.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/station_information.json", TestFixturesV30+"station_information_virtual_station.json")
 	var gbfsData stationinformation.StationInformation
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -85,7 +85,7 @@ func TestStationInformationVirtual30(t *testing.T) {
 }
 
 func TestStationStatus30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/station_status.json", TestFixturesV30+"station_status.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/station_status.json", TestFixturesV30+"station_status.json")
 	var gbfsData stationstatus.StationStatus
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -96,7 +96,7 @@ func TestStationStatus30(t *testing.T) {
 }
 
 func TestSystemAlerts30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/system_alerts.json", TestFixturesV30+"system_alerts.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/system_alerts.json", TestFixturesV30+"system_alerts.json")
 	var gbfsData systemalerts.SystemAlerts
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -107,7 +107,7 @@ func TestSystemAlerts30(t *testing.T) {
 }
 
 func TestSystemInformation30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/system_information.json", TestFixturesV30+"system_information.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/system_information.json", TestFixturesV30+"system_information.json")
 	var gbfsData systeminformation.SystemInformation
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -118,7 +118,7 @@ func TestSystemInformation30(t *testing.T) {
 }
 
 func TestSystemPricingPlanA30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/system_pricing_plans.json", TestFixturesV30+"system_pricing_plans_a.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/system_pricing_plans.json", TestFixturesV30+"system_pricing_plans_a.json")
 	var gbfsData systempricingplans.SystemPricingPlans
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -129,7 +129,7 @@ func TestSystemPricingPlanA30(t *testing.T) {
 }
 
 func TestSystemPricingPlan30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/system_pricing_plans.json", TestFixturesV30+"system_pricing_plans_b.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/system_pricing_plans.json", TestFixturesV30+"system_pricing_plans_b.json")
 	var gbfsData systempricingplans.SystemPricingPlans
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -140,7 +140,7 @@ func TestSystemPricingPlan30(t *testing.T) {
 }
 
 func TestSystemRegions30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/system_regions.json", TestFixturesV30+"system_regions.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/system_regions.json", TestFixturesV30+"system_regions.json")
 	var gbfsData systemregions.SystemRegions
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -151,7 +151,7 @@ func TestSystemRegions30(t *testing.T) {
 }
 
 func TestVehicleStatusCarsharing30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/vehicle_status.json", TestFixturesV30+"vehicle_status_carsharing.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/vehicle_status.json", TestFixturesV30+"vehicle_status_carsharing.json")
 	var gbfsData vehiclestatus.VehicleStatus
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -162,7 +162,7 @@ func TestVehicleStatusCarsharing30(t *testing.T) {
 }
 
 func TestVehicleStatusMicromobility30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/vehicle_status.json", TestFixturesV30+"vehicle_status_micromobility.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/vehicle_status.json", TestFixturesV30+"vehicle_status_micromobility.json")
 	var gbfsData vehiclestatus.VehicleStatus
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {
@@ -173,7 +173,7 @@ func TestVehicleStatusMicromobility30(t *testing.T) {
 }
 
 func TestVehicleTypes30(t *testing.T) {
-	schemaLoader, jsonData := loadSchemaAndFixture(t, "./../v3.0/vehicle_types.json", TestFixturesV30+"vehicle_types.json")
+	schemaLoader, jsonData := loadSchemaAndFixture(t, "../schemas/v3.0/vehicle_types.json", TestFixturesV30+"vehicle_types.json")
 	var gbfsData vehicletypes.VehicleTypes
 	err := json.Unmarshal(jsonData, &gbfsData)
 	if err != nil {

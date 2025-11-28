@@ -1,7 +1,7 @@
 package system_regions
 
 import (
-	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/common"
 	"github.com/phd-kerger/gbfs-go-adapter/models/v2.3/header"
 )
 

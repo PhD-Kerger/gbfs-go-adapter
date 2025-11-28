@@ -2,7 +2,7 @@ package manifest
 
 import (
 	"github.com/paulmach/orb/geojson"
-	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/common"
 	manifest_v30 "github.com/phd-kerger/gbfs-go-adapter/models/v3.0/manifest"
 )
 

@@ -11,10 +11,10 @@ import (
 
 // Test fixture path constants for different GBFS versions
 const (
-	TestFixturesV23    = "./../testFixtures/v2.3/"
-	TestFixturesV30    = "./../testFixtures/v3.0/"
-	TestFixturesV31RC  = "./../testFixtures/v3.1-RC/"
-	TestFixturesV31RC2 = "./../testFixtures/v3.1-RC2/"
+	TestFixturesV23    = "../testFixtures/v2.3/"
+	TestFixturesV30    = "../testFixtures/v3.0/"
+	TestFixturesV31RC  = "../testFixtures/v3.1-RC/"
+	TestFixturesV31RC2 = "../testFixtures/v3.1-RC2/"
 )
 
 // loadSchemaAndFixture loads a JSON schema and test fixture file,

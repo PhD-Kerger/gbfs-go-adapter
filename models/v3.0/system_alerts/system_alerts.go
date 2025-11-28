@@ -1,7 +1,7 @@
 package system_alerts
 
 import (
-	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/common"
 	"github.com/phd-kerger/gbfs-go-adapter/models/v3.0/header"
 )
 
