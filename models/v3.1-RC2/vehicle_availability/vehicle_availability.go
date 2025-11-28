@@ -1,8 +1,8 @@
 package vehicleavailability
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/golang/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/golang/v3.0/header"
+	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
+	"github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/header"
 )
 
 // Describes the capacity and rental availability of the station

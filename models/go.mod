@@ -1,4 +1,4 @@
-module github.com/PhD-Kerger/gbfs-go-adapter
+module github.com/PhD-Kerger/gbfs-go-adapter/models
 
 go 1.22.3
 
@@ -8,7 +8,6 @@ require (
 )
 
 require (
-	github.com/PhD-Kerger/gbfs-go-adapter v0.1.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	go.mongodb.org/mongo-driver v1.11.4 // indirect
