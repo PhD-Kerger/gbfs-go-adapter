@@ -1,8 +1,8 @@
 package system_regions
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/header"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v3.0/header"
 )
 
 // Describes regions for a system that is broken up by geographic or political region.

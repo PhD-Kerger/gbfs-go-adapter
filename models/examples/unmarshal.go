@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v2.3/gbfs"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v2.3/gbfs"
 )
 
 func ExampleUnmarshal() {

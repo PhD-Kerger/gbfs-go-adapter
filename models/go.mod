@@ -1,4 +1,4 @@
-module github.com/PhD-Kerger/gbfs-go-adapter/models
+module github.com/phd-kerger/gbfs-go-adapter/models
 
 go 1.22.3
 

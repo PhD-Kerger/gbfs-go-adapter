@@ -3,7 +3,7 @@ package header
 import (
 	"time"
 
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
 )
 
 type HeaderStruct struct {

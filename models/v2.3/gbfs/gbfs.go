@@ -1,8 +1,8 @@
 package gbfs
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v2.3/header"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v2.3/header"
 )
 
 // Auto-discovery file that links to all of the other files published by the system.

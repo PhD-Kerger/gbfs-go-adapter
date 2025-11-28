@@ -1,9 +1,9 @@
 package manifest
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	manifest_v30 "github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/manifest"
 	"github.com/paulmach/orb/geojson"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	manifest_v30 "github.com/phd-kerger/gbfs-go-adapter/models/v3.0/manifest"
 )
 
 // An index of gbfs.json URLs for each GBFS data set produced by a publisher. A single

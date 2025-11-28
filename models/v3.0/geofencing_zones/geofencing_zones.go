@@ -1,9 +1,9 @@
 package geofencing_zones
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/header"
 	geojson "github.com/paulmach/orb/geojson"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v3.0/header"
 )
 
 // Describes geofencing zones and their associated rules and attributes (added in v2.1-RC).

@@ -1,8 +1,8 @@
 package stationstatus
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v2.3/header"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v2.3/header"
 )
 
 // Describes the capacity and rental availability of the station

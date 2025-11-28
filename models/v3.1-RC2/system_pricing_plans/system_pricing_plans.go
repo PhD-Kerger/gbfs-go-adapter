@@ -1,7 +1,7 @@
 package system_pricing_plans
 
 import (
-	system_pricing_plans_v30 "github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/system_pricing_plans"
+	system_pricing_plans_v30 "github.com/phd-kerger/gbfs-go-adapter/models/v3.0/system_pricing_plans"
 )
 
 // Describes the pricing schemes of the system.

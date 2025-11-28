@@ -1,8 +1,8 @@
 package freebikestatus
 
 import (
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/common"
-	"github.com/PhD-Kerger/gbfs-go-adapter/models/v2.3/header"
+	"github.com/phd-kerger/gbfs-go-adapter/models/common"
+	"github.com/phd-kerger/gbfs-go-adapter/models/v2.3/header"
 )
 
 // Describes the vehicles that are available for rent (as of v2.3).

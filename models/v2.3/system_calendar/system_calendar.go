@@ -1,6 +1,6 @@
 package systemcalendar
 
-import "github.com/PhD-Kerger/gbfs-go-adapter/models/v2.3/header"
+import "github.com/phd-kerger/gbfs-go-adapter/models/v2.3/header"
 
 // Describes the operating calendar for a system.
 type SystemCalendar struct {

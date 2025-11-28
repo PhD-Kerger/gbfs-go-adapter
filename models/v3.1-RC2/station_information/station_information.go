@@ -1,7 +1,7 @@
 package station_information
 
 import (
-	station_information_v30 "github.com/PhD-Kerger/gbfs-go-adapter/models/v3.0/station_information"
+	station_information_v30 "github.com/phd-kerger/gbfs-go-adapter/models/v3.0/station_information"
 )
 
 // List of all stations, their capacities and locations. REQUIRED of systems utilizing docks.
