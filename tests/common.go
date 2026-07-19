@@ -15,6 +15,7 @@ const (
 	TestFixturesV30    = "../testFixtures/v3.0/"
 	TestFixturesV31RC  = "../testFixtures/v3.1-RC/"
 	TestFixturesV31RC2 = "../testFixtures/v3.1-RC2/"
+	TestFixturesV31RC3 = "../testFixtures/v3.1-RC3/"
 )
 
 // loadSchemaAndFixture loads a JSON schema and test fixture file,
